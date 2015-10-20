@@ -1,0 +1,697 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>路由配置 | React Router 中文文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.3.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../../docs/guides/basics/RouteMatching.html" />
+    
+    
+    <link rel="prev" href="../../../docs/guides/basics/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.1" data-basepath="../../.." data-revision="Tue Oct 20 2015 13:35:17 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Introduction.html">
+            
+                
+                    <a href="../../../docs/Introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/guides/basics/index.html">
+            
+                
+                    <a href="../../../docs/guides/basics/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        基础
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1" data-path="docs/guides/basics/RouteConfiguration.html">
+            
+                
+                    <a href="../../../docs/guides/basics/RouteConfiguration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        路由配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/guides/basics/RouteMatching.html">
+            
+                
+                    <a href="../../../docs/guides/basics/RouteMatching.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        路由区别原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/guides/basics/Histories.html">
+            
+                
+                    <a href="../../../docs/guides/basics/Histories.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Histories
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/guides/basics/IndexRoutes.html">
+            
+                
+                    <a href="../../../docs/guides/basics/IndexRoutes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Index Routes and Links
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/guides/advanced/index.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        高级用法
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/guides/advanced/DynamicRouting.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/DynamicRouting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        动态路由
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/guides/advanced/ConfirmingNavigation.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ConfirmingNavigation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Confirming Navigation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/guides/advanced/ServerRendering.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ServerRendering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        服务端渲染
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="docs/guides/advanced/ComponentLifecycle.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ComponentLifecycle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        模块生命周期
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="docs/guides/advanced/NavigatingOutsideOfComponents.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/NavigatingOutsideOfComponents.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Navigating Outside of Components
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="UPGRADE_GUIDE.html">
+            
+            <span><b>4.</b> 升级指南</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Troubleshooting.html">
+            
+                
+                    <a href="../../../docs/Troubleshooting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        排错
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/API.html">
+            
+                
+                    <a href="../../../docs/API.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        API 文档
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docs/Glossary.html">
+            
+                
+                    <a href="../../../docs/Glossary.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        词汇表
+                    </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../" >React Router 中文文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <a id="edit-link" href="https://github.com/react-guide/react-router-cn/tree/master/docs/guides/basics/RouteConfiguration.md" class="btn fa fa-edit pull-left">&#xA0;&#xA0;&#x5F00;&#x59CB;&#x7EA0;&#x9519;</a><h1 id="route-configuration">Route Configuration</h1>
+<p>A <a href="docs/Glossary.md#routeconfig">route configuration</a> is basically a set of instructions that tell a router how to try to <a href="RouteMatching.html">match the URL</a> and what code to run when it does. To illustrate some of the features available in your route config, let&apos;s expand on the simple app from <a href="docs/Introduction.md#adding-more-ui">the introduction</a>.</p>
+<pre><code class="lang-js"><span class="token keyword">import</span> React from <span class="token string">&apos;react&apos;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Router<span class="token punctuation">,</span> Route<span class="token punctuation">,</span> Link <span class="token punctuation">}</span> from <span class="token string">&apos;react-router&apos;</span>
+
+<span class="token keyword">const</span> App <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>App<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/about&quot;</span><span class="token operator">&gt;</span>About<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/inbox&quot;</span><span class="token operator">&gt;</span>Inbox<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children<span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> About <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>h3<span class="token operator">&gt;</span>About<span class="token operator">&lt;</span><span class="token operator">/</span>h3<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> Inbox <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>h2<span class="token operator">&gt;</span>Inbox<span class="token operator">&lt;</span><span class="token operator">/</span>h2<span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children <span class="token operator">||</span> <span class="token string">&quot;Welcome to your Inbox&quot;</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> Message <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>h3<span class="token operator">&gt;</span>Message <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>h3<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>App<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>About<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;inbox&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Inbox<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;messages/:id&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Message<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span> document<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+</code></pre>
+<p>As configured, this app knows how to render the following 4 URLs:</p>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Components</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code><span class="token operator">/</span></code></td>
+<td><code>App</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>about</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> About</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>inbox</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>inbox<span class="token operator">/</span>messages<span class="token operator">/</span><span class="token punctuation">:</span>id</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox <span class="token operator">-</span><span class="token operator">&gt;</span> Message</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="adding-an-index">Adding an Index</h3>
+<p>Imagine we&apos;d like to render another component inside of <code>App</code> when the URL is <code><span class="token operator">/</span></code>. Currently, <code><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children</code> inside of <code>App</code>&apos;s <code>render</code> method is <code>undefined</code> in this case. We can use an <a href="docs/API.md#indexroute"><code><span class="token operator">&lt;</span>IndexRoute<span class="token operator">&gt;</span></code></a> to specify a &quot;default&quot; page.</p>
+<pre><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> IndexRoute <span class="token punctuation">}</span> from <span class="token string">&apos;react-router&apos;</span>
+
+<span class="token keyword">const</span> Dashboard <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>Welcome to the app<span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>App<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token punctuation">{</span><span class="token comment" spellcheck="true">/* Show the dashboard at / */</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span>IndexRoute component<span class="token operator">=</span><span class="token punctuation">{</span>Dashboard<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>About<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;inbox&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Inbox<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;messages/:id&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Message<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span> document<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+</code></pre>
+<p>Now, inside <code>App</code>&apos;s <code>render</code> method <code><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children</code> will be a <code><span class="token operator">&lt;</span>Dashboard<span class="token operator">&gt;</span></code> element! This functionality is similar to Apache&apos;s <a href="http://httpd.apache.org/docs/2.4/mod/mod_dir.html#directoryindex" target="_blank"><code>DirectoryIndex</code></a> or nginx&apos;s <a href="http://nginx.org/en/docs/http/ngx_http_index_module.html#index" target="_blank"><code>index</code></a> directive, both of which allow you to specify a file such as <code>index<span class="token punctuation">.</span>html</code> when the request URL matches a directory path.</p>
+<p>Our sitemap now looks like this:</p>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Components</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code><span class="token operator">/</span></code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Dashboard</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>about</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> About</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>inbox</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>inbox<span class="token operator">/</span>messages<span class="token operator">/</span><span class="token punctuation">:</span>id</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox <span class="token operator">-</span><span class="token operator">&gt;</span> Message</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="decoupling-the-ui-from-the-url">Decoupling the UI from the URL</h3>
+<p>It would be nice if we could remove the <code><span class="token operator">/</span>inbox</code> segment from the <code><span class="token operator">/</span>inbox<span class="token operator">/</span>messages<span class="token operator">/</span><span class="token punctuation">:</span>id</code> URL pattern, but still render <code>Message</code> nested inside the <code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox</code> UI. Absolute <code>path</code>s let us do exactly that.</p>
+<pre><code class="lang-js">React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>App<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>IndexRoute component<span class="token operator">=</span><span class="token punctuation">{</span>Dashboard<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>About<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;inbox&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Inbox<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        <span class="token punctuation">{</span><span class="token comment" spellcheck="true">/* Use /messages/:id instead of messages/:id */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/messages/:id&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Message<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span> document<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+</code></pre>
+<p>The ability to use absolute paths in deeply nested routes gives us complete control over what the URL looks like! We don&apos;t have to add more segments to the URL just to get nested UI.</p>
+<p>We can now render the following URLs:</p>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Components</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code><span class="token operator">/</span></code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Dashboard</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>about</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> About</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>inbox</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox</code></td>
+</tr>
+<tr>
+<td><code><span class="token operator">/</span>messages<span class="token operator">/</span><span class="token punctuation">:</span>id</code></td>
+<td><code>App <span class="token operator">-</span><span class="token operator">&gt;</span> Inbox <span class="token operator">-</span><span class="token operator">&gt;</span> Message</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: Absolute paths may not be used in route config that is <a href="docs/guides/advanced/DynamicRouting.md">dynamically loaded</a>.</p>
+<h3 id="preserving-urls">Preserving URLs</h3>
+<p>Wait a minute ... we just changed a URL! <a href="http://www.w3.org/Provider/Style/URI.html" target="_blank">That&apos;s not cool</a>. Now everyone who had a link to <code><span class="token operator">/</span>inbox<span class="token operator">/</span>messages<span class="token operator">/</span><span class="token number">5</span></code> has a <strong>broken link</strong>. :(</p>
+<p>Not to worry. We can use a <a href="docs/API.md#redirect"><code><span class="token operator">&lt;</span>Redirect<span class="token operator">&gt;</span></code></a> to make sure that URL still works!</p>
+<pre><code class="lang-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Redirect <span class="token punctuation">}</span> from <span class="token string">&apos;react-router&apos;</span>
+
+React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>App<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>IndexRoute component<span class="token operator">=</span><span class="token punctuation">{</span>Dashboard<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;about&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>About<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;inbox&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Inbox<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/messages/:id&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Message<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+
+        <span class="token punctuation">{</span><span class="token comment" spellcheck="true">/* Redirect /inbox/messages/:id to /messages/:id */</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span>Redirect from<span class="token operator">=</span><span class="token string">&quot;messages/:id&quot;</span> to<span class="token operator">=</span><span class="token string">&quot;/messages/:id&quot;</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span> document<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+</code></pre>
+<p>Now when someone clicks on that link to <code><span class="token operator">/</span>inbox<span class="token operator">/</span>messages<span class="token operator">/</span><span class="token number">5</span></code> they&apos;ll automatically be redirected to <code><span class="token operator">/</span>messages<span class="token operator">/</span><span class="token number">5</span></code>. :raised_hands:</p>
+<h3 id="enter-and-leave-hooks">Enter and Leave Hooks</h3>
+<p><a href="docs/Glossary.md#route">Route</a>s may also define <a href="docs/Glossary.md#enterhook"><code>onEnter</code></a> and <a href="docs/Glossary.md#leavehook"><code>onLeave</code></a> hooks that are invoked once a transition has been <a href="docs/guides/advanced/ConfirmingNavigation.md">confirmed</a>. These hooks are useful for various things like <a href="https://github.com/rackt/react-router/tree/master/examples/auth-flow" target="_blank">requiring auth</a> when a route is entered and saving stuff to persistent storage before a route unmounts.</p>
+<p>During a transition, <a href="docs/Glossary.md#leavehook"><code>onLeave</code> hooks</a> run first on all routes we are leaving, starting with the leaf route on up to the first common ancestor route. Next, <a href="docs/Glossary.md#enterhook"><code>onEnter</code> hooks</a> run starting with the first parent route we&apos;re entering down to the leaf route.</p>
+<p>Continuing with our example above, if a user clicked on a link to <code><span class="token operator">/</span>about</code> from <code><span class="token operator">/</span>messages<span class="token operator">/</span><span class="token number">5</span></code>, the following hooks would run in this order:</p>
+<ul>
+<li><code>onLeave</code> on the <code><span class="token operator">/</span>messages<span class="token operator">/</span><span class="token punctuation">:</span>id</code> route</li>
+<li><code>onLeave</code> on the <code><span class="token operator">/</span>inbox</code> route</li>
+<li><code>onEnter</code> on the <code><span class="token operator">/</span>about</code> route</li>
+</ul>
+<h3 id="alternate-configuration">Alternate Configuration</h3>
+<p>Since <a href="docs/Glossary.md#route">routes</a> are usually nested, it&apos;s useful to use a concise nested syntax like <a href="https://facebook.github.io/jsx/" target="_blank">JSX</a> to describe their relationship to one another. However, you may also use an array of plain <a href="docs/Glossary.md#route">route</a> objects if you prefer to avoid using JSX.</p>
+<p>The route config we&apos;ve discussed up to this point could also be specified like this:</p>
+<pre><code class="lang-js"><span class="token keyword">const</span> routeConfig <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span> path<span class="token punctuation">:</span> <span class="token string">&apos;/&apos;</span><span class="token punctuation">,</span>
+    component<span class="token punctuation">:</span> App<span class="token punctuation">,</span>
+    indexRoute<span class="token punctuation">:</span> <span class="token punctuation">{</span> component<span class="token punctuation">:</span> Dashboard <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    childRoutes<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> path<span class="token punctuation">:</span> <span class="token string">&apos;about&apos;</span><span class="token punctuation">,</span> component<span class="token punctuation">:</span> About <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> path<span class="token punctuation">:</span> <span class="token string">&apos;inbox&apos;</span><span class="token punctuation">,</span>
+        component<span class="token punctuation">:</span> Inbox<span class="token punctuation">,</span>
+        childRoutes<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> path<span class="token punctuation">:</span> <span class="token string">&apos;/messages/:id&apos;</span><span class="token punctuation">,</span> component<span class="token punctuation">:</span> Message <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> path<span class="token punctuation">:</span> <span class="token string">&apos;messages/:id&apos;</span><span class="token punctuation">,</span>
+            onEnter<span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>nextState<span class="token punctuation">,</span> replaceState<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+              <span class="token function">replaceState</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token string">&apos;/messages/&apos;</span> <span class="token operator">+</span> nextState<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+
+React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>Router routes<span class="token operator">=</span><span class="token punctuation">{</span>routeConfig<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span> document<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../docs/guides/basics/index.html" class="navigation navigation-prev " aria-label="Previous page: 基础"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../docs/guides/basics/RouteMatching.html" class="navigation navigation-next " aria-label="Next page: 路由区别原理"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"edit-link":{"base":"https://github.com/react-guide/react-router-cn/tree/master","label":"开始纠错"},"ga":{"token":"UA-68960215-1","configuration":"auto"}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-68960215-1', 'auto');ga('send', 'pageview');</script>
+    </body>
+    
+</html>

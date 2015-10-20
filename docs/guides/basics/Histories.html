@@ -1,0 +1,546 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Histories | React Router 中文文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.3.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../../docs/guides/basics/IndexRoutes.html" />
+    
+    
+    <link rel="prev" href="../../../docs/guides/basics/RouteMatching.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.3" data-basepath="../../.." data-revision="Tue Oct 20 2015 13:35:17 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Introduction.html">
+            
+                
+                    <a href="../../../docs/Introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/guides/basics/index.html">
+            
+                
+                    <a href="../../../docs/guides/basics/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        基础
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/guides/basics/RouteConfiguration.html">
+            
+                
+                    <a href="../../../docs/guides/basics/RouteConfiguration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        路由配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/guides/basics/RouteMatching.html">
+            
+                
+                    <a href="../../../docs/guides/basics/RouteMatching.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        路由区别原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="docs/guides/basics/Histories.html">
+            
+                
+                    <a href="../../../docs/guides/basics/Histories.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Histories
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/guides/basics/IndexRoutes.html">
+            
+                
+                    <a href="../../../docs/guides/basics/IndexRoutes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Index Routes and Links
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/guides/advanced/index.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        高级用法
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/guides/advanced/DynamicRouting.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/DynamicRouting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        动态路由
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/guides/advanced/ConfirmingNavigation.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ConfirmingNavigation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Confirming Navigation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/guides/advanced/ServerRendering.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ServerRendering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        服务端渲染
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="docs/guides/advanced/ComponentLifecycle.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/ComponentLifecycle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        模块生命周期
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="docs/guides/advanced/NavigatingOutsideOfComponents.html">
+            
+                
+                    <a href="../../../docs/guides/advanced/NavigatingOutsideOfComponents.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Navigating Outside of Components
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="UPGRADE_GUIDE.html">
+            
+            <span><b>4.</b> 升级指南</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Troubleshooting.html">
+            
+                
+                    <a href="../../../docs/Troubleshooting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        排错
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/API.html">
+            
+                
+                    <a href="../../../docs/API.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        API 文档
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="docs/Glossary.html">
+            
+                
+                    <a href="../../../docs/Glossary.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        词汇表
+                    </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../" >React Router 中文文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <a id="edit-link" href="https://github.com/react-guide/react-router-cn/tree/master/docs/guides/basics/Histories.md" class="btn fa fa-edit pull-left">&#xA0;&#xA0;&#x5F00;&#x59CB;&#x7EA0;&#x9519;</a><h1 id="histories">Histories</h1>
+<p>React Router is built on <a href="https://github.com/rackt/history" target="_blank">history</a>.
+In a nutshell, a history knows how to listen to the browser&apos;s address
+bar for changes and parses the URL into a <code>location</code> object that the
+router can use to match routes and render the correct set of components.</p>
+<p>There are three types of histories you&apos;ll come across most often, but
+note that anyone can build a custom history implementation for
+consumption with React Router.</p>
+<ul>
+<li><a href="#createhashhistory"><code>createHashHistory</code></a></li>
+<li><a href="#createbrowserhistory"><code>createBrowserHistory</code></a></li>
+<li><a href="#creatememoryhistory"><code>createMemoryHistory</code></a></li>
+</ul>
+<p>Get them from the history package:</p>
+<pre><code class="lang-js"><span class="token comment" spellcheck="true">// JavaScript module import</span>
+<span class="token keyword">import</span> createBrowserHistory from <span class="token string">&apos;history/lib/createBrowserHistory&apos;</span>
+<span class="token comment" spellcheck="true">// or commonjs</span>
+<span class="token keyword">const</span> createBrowserHistory <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;history/lib/createBrowserHistory&apos;</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="-createhashhistory"><code>createHashHistory</code></h3>
+<p>This is the default history you&apos;ll get if you don&apos;t specify a history at all (i.e. <code><span class="token operator">&lt;</span>Router<span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">/* your routes */</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span></code>). It uses the hash (<code>#</code>) portion of the URL creating routes that look like <code>example<span class="token punctuation">.</span>com<span class="token operator">/</span>#<span class="token operator">/</span>some<span class="token operator">/</span>path</code>.</p>
+<h4 id="should-i-use-createhashhistory">Should I use <code>createHashHistory</code>?</h4>
+<p>Hash history is the default because it works without any setup on your server, and works in all evergreen browsers and IE8+. But, we don&apos;t recommend using it in production, every web app should aspire to use <code>createBrowserHistory</code>.</p>
+<h4 id="what-is-that-k-ckuvup-junk-in-the-url">What is that <code><span class="token operator">?</span>_k<span class="token operator">=</span>ckuvup</code> junk in the URL?</h4>
+<p>When a history transitions around your app with <code>pushState</code> or <code>replaceState</code>, it can store &quot;location state&quot; on the new location that doesn&apos;t show up in the URL, think of it a little bit like post data in an HTML form.</p>
+<p>The DOM API that hash history uses to transition around is simply <code>window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>hash <span class="token operator">=</span> newHash</code>, with no place to store location state.  But, we want all histories to be able to use location state, so we shim it by creating a unique key for each location and then store that state in session storage. When the visitor clicks &quot;back&quot; and &quot;forward&quot; we now have a mechanism to restore the location state.</p>
+<h3 id="-createbrowserhistory"><code>createBrowserHistory</code></h3>
+<p>Browser history is the recommended history for browser application with React Router. It uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/History" target="_blank">History</a> API built into the browser to manipulate the URL, creating real URLs that look like <code>example<span class="token punctuation">.</span>com<span class="token operator">/</span>some<span class="token operator">/</span>path</code>.</p>
+<h4 id="configuring-your-server">Configuring Your Server</h4>
+<p>Your server must be ready to handle real URLs. When the app first loads at <code><span class="token operator">/</span></code> it will probably work, but as the user navigates around and then hits refresh at <code><span class="token operator">/</span>accounts<span class="token operator">/</span><span class="token number">23</span></code> your web server will get a request to <code><span class="token operator">/</span>accounts<span class="token operator">/</span><span class="token number">23</span></code>. You will need it to handle that URL and include your JavaScript application in the response.</p>
+<p>An express app might look like this:</p>
+<pre><code class="lang-js"><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;express&apos;</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;path&apos;</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> port <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span>PORT <span class="token operator">||</span> <span class="token number">8080</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// serve static assets normally</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token keyword">static</span><span class="token punctuation">(</span>__dirname <span class="token operator">+</span> <span class="token string">&apos;/public&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// handle every other route with index.html, which will contain</span>
+<span class="token comment" spellcheck="true">// a script tag to your application&apos;s JavaScript file(s).</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">&apos;*&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>request<span class="token punctuation">,</span> response<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  response<span class="token punctuation">.</span><span class="token function">sendFile</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&apos;public&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;index.html&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span>port<span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;server started on port &quot;</span> <span class="token operator">+</span> port<span class="token punctuation">)</span>
+</code></pre>
+<p>If you&apos;re using nginx, use the <a href="http://nginx.org/en/docs/http/ngx_http_core_module.html#try_files" target="_blank"><code>try_files</code> directive</a>:</p>
+<pre><code>server <span class="token punctuation">{</span>
+  <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  location <span class="token operator">/</span> <span class="token punctuation">{</span>
+    try_files $uri <span class="token operator">/</span>index<span class="token punctuation">.</span>html
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>This lets nginx serve static asset files and serves your <code>index<span class="token punctuation">.</span>html</code> file when another file isn&apos;t found on the server.</p>
+<h4 id="ie8-ie9-support">IE8, IE9 Support</h4>
+<p>We feature detect to see if we can use the browser&apos;s native <code>window<span class="token punctuation">.</span>history</code> API. If not, any call to transition around the app will result in <em>a full page reload</em>, which allows you to build your app and have a better experience for newer browsers, but still support old ones.</p>
+<p>You might wonder why we don&apos;t fall back to hash history; the problem is that URLs become non-deterministic. If a visitor on hash history shares a URL with a visitor on browser history, and then they share that back, we end up with a terrible cartesian product of infinite potential URLs.</p>
+<h3 id="-creatememoryhistory"><code>createMemoryHistory</code></h3>
+<p>Memory history doesn&apos;t manipulate or read from the address bar. This is how we implement server rendering. It&apos;s also useful for testing and other rendering environments (like React Native).</p>
+<h2 id="example-implementation">Example implementation</h2>
+<pre><code class="lang-js"><span class="token keyword">import</span> React from <span class="token string">&apos;react&apos;</span>
+<span class="token keyword">import</span> createBrowserHistory from <span class="token string">&apos;history/lib/createBrowserHistory&apos;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Router<span class="token punctuation">,</span> Route<span class="token punctuation">,</span> IndexRoute <span class="token punctuation">}</span> from <span class="token string">&apos;react-router&apos;</span>
+<span class="token keyword">import</span> App from <span class="token string">&apos;../components/App&apos;</span>
+<span class="token keyword">import</span> Home from <span class="token string">&apos;../components/Home&apos;</span>
+<span class="token keyword">import</span> About from <span class="token string">&apos;../components/About&apos;</span>
+<span class="token keyword">import</span> Features from <span class="token string">&apos;../components/Features&apos;</span>
+
+React<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>Router history<span class="token operator">=</span><span class="token punctuation">{</span><span class="token function">createBrowserHistory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&apos;/&apos;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>App<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>IndexRoute component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&apos;about&apos;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>About<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&apos;features&apos;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Features<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&apos;app&apos;</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../docs/guides/basics/RouteMatching.html" class="navigation navigation-prev " aria-label="Previous page: 路由区别原理"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../docs/guides/basics/IndexRoutes.html" class="navigation navigation-next " aria-label="Next page: Index Routes and Links"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-edit-link/plugin.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"edit-link":{"base":"https://github.com/react-guide/react-router-cn/tree/master","label":"开始纠错"},"ga":{"token":"UA-68960215-1","configuration":"auto"}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-68960215-1', 'auto');ga('send', 'pageview');</script>
+    </body>
+    
+</html>
